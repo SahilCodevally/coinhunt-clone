@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   background-color: #d5dfe5;
-  height: 100vh;
 }
 
 .App-logo {
@@ -42,6 +41,7 @@
 .add-coin,
 .login {
   padding-top: 15%;
+  height: calc(100vh - 195px);
 }
 
 .navigation {
@@ -89,7 +89,6 @@
 }
 
 .container {
-  min-height: 450px;
   grid-column: auto/span 12;
 }
 
