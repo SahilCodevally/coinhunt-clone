@@ -1,0 +1,221 @@
+.App {
+  text-align: center;
+  background-color: #d5dfe5;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.add-coin,
+.login {
+  padding-top: 15%;
+}
+
+.navigation {
+  height: 45px;
+  grid-column: auto/span 17;
+  -webkit-justify-content: space-evenly;
+  justify-content: space-evenly;
+  color: #fff;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 3px 5px -3px #cfcfcf;
+}
+
+.navigation,
+.navigation .logo a {
+  display: flex;
+  align-items: center;
+}
+
+.navigation .logo a {
+  text-decoration: none !important;
+  list-style: none;
+  color: #000;
+  outline: none;
+  padding-right: 40vw;
+}
+
+.navigation .nav-list ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.navigation .nav-list li {
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.navigation .nav-list li a {
+  font-size: 14px;
+  color: #000;
+  text-decoration: none !important;
+  border-radius: 20px;
+  outline: none;
+}
+
+.container {
+  min-height: 450px;
+  grid-column: auto/span 12;
+}
+
+.home-container {
+  margin: 20px 0;
+}
+
+.home-container .top-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 7px;
+}
+
+.data-table .table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.data-table .table tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 6px;
+  height: 65px;
+  vertical-align: middle;
+}
+
+.all-coins {
+  font-size: 1.3rem;
+}
+
+.all-coins .table {
+  border-top-left-radius: 0px !important;
+}
+
+.promoted-coins .table tbody th,
+.all-coins .table tbody th {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.table tbody th img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.all-coins .table thead th {
+  border-style: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.all-coins .nav-link {
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+}
+
+.all-coins .nav-tabs .nav-link {
+  border: none;
+}
+
+.all-coins .nav-tabs .nav-item.show .nav-link,
+.all-coins .nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.footer {
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  padding: 20px 0;
+  background-color: #d5dfe5;
+  color: #4b4c4d;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-spacing: 10px;
+  margin: 0 20px 10px;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.footer ul li {
+  padding: 0 10px;
+}
+
+.footer ul li a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+}
+
+.data-table .button-svg {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.landing_vote_icon {
+  width: 19px;
+  height: 19px;
+}
+
+.vote_text {
+  font-size: 0.7rem;
+  margin-top: 1px;
+}
+
+.vote_button {
+  min-width: 80px;
+  height: 40px;
+}
