@@ -1,7 +1,6 @@
 // Redux imports
 import thunk from "redux-thunk";
 import { createStore, combineReducers, compose, applyMiddleware } from "redux";
-import createSagaMeddleware from "redux-saga";
 
 import coinReducer from "./reducer/coin";
 
